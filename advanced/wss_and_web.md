@@ -71,6 +71,7 @@ serveraddr.com
   proxy /ray localhost:10000 {
     websocket
     header_upstream -Origin
+    without /ray
   }
 }
 ```
